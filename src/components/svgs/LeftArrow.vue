@@ -17,6 +17,3 @@
     <line x1="5" y1="12" x2="11" y2="6"></line>
   </svg>
 </template>
-<script>
-export default {};
-</script>

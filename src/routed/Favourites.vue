@@ -11,7 +11,7 @@
 </template>
 <script>
 import axios from "axios";
-import Card from "../components/Card.vue"
+import Card from "../components/index.js"
 export default {
   methods: {
     query(id) {
@@ -31,7 +31,6 @@ export default {
   created() {
     const self = this;
     for (const fav of this.$favs) {
-      console.log(fav);
       self.query(fav);
     }
   },

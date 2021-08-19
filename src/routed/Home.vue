@@ -31,7 +31,7 @@
     </div>
   </div>
 </template><script>
-import Card from "../components/Card.vue";
+import Card from "../components/index.js";
 import RightArrow from "../components/svgs/RightArrow.vue";
 import LeftArrow from "../components/svgs/LeftArrow.vue";
 
